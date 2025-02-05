@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'my-github-action-project'
+    if: github.repository == 'Dhruv-Rajvanshi/my-github-action-project'
     runs-on: ubuntu-latest
 
     steps:
