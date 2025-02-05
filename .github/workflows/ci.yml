@@ -27,6 +27,9 @@ jobs:
       
     - name: Build with gradle
       run: ./gradlew build
+      
+    - name: Debug File System
+      run: ls -l build/libs || echo "build/libs not found!"
 
     - name: Docker Build Push
       uses: mr-smithers-excellent/docker-build-push@v4
