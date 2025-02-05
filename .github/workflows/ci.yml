@@ -31,7 +31,7 @@ jobs:
     - name: Docker Build Push
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: dhruvrajvanshi127/github-actions
+        image: rajvanshidhruv/github_actions
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
