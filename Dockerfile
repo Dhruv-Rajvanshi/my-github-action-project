@@ -1,6 +1,7 @@
 FROM openjdk:8-jre-alpine
 WORKDIR /usr/app
 
+COPY . .
 RUN chmod +x gradlew
 RUN ./gradlew build
 
